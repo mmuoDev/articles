@@ -50,11 +50,11 @@ class ArticleController extends Controller
 
     //search for article(s)
     public function search($query){
-        $article = Article::where('title', 'like', '%'.$query.'%')->get(); //search by title
+        $article = Article::where('title', 'like', '%'.$query.'%')->paginate(10); //search by title
         if($article->count() > 0){
             return response()->json(['data' => $article],  200);
         }else{
-            return response()->json(['error' => 'No article not found'], 400);
+            return response()->json(['error' => 'No article was found'], 400);
         }
     }
 
