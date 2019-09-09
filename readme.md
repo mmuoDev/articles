@@ -54,3 +54,5 @@ To get started:
 + Run php artisan migrate for migrations
 + Run php artisan passport:install to set up encryption keys to generate tokens
 + Run php artisan serve to test endpoints
++ You can run php artisan db:seed to work with existing data
+
