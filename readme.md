@@ -1,8 +1,23 @@
 
 ## About Project
 
-This is an articles API that create, fetch, search, delete, update and rate articles. Authentication was implemented on endpoints that requires a user to create, update or delete an article using Laravel Passport.  
-The endpoints: 
+This is an articles API that create, fetch, search, delete, update and rate articles. Authentication was implemented on endpoints that requires a user to create, update or delete an article using Laravel Passport. A user is thus required to pass the bearer token to these endpoints.  
+
+The endpoints for authentication: 
+
+### Register a new user 
+```
+/api/register
+Method - POST
+Body - name, email, password
+```
+### Login an existing user
+```
+/api/login
+Method - POST
+Body -email, password
+```
+The endpoints for articles: 
 
 ### Create an article
 ```
