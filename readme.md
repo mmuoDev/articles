@@ -1,7 +1,7 @@
 
 ## About Project
 
-This is an articles API that creates, fetches, searches, deletes, updates and ranks articles. Authentication was implemented on endpoints that requires a user to create, update or delete an article using Laravel Passport.  
+This is an articles API that creates, fetches, searches, deletes, updates and rates articles. Authentication was implemented on endpoints that requires a user to create, update or delete an article using Laravel Passport.  
 The endpoints: 
 
 ### Create an article
