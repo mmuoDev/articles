@@ -62,12 +62,12 @@ Body - rating (must be between 1 - 5)
 Method – GET
 ```
 To get started: 
-+ clone or download source code (unzip)
-+ cd to project folder
-+ Set database credentials in .env file
-+ Run composer install
-+ Run php artisan migrate for migrations
-+ Run php artisan passport:install to set up encryption keys to generate tokens
-+ Run php artisan serve to test endpoints
-+ You can run php artisan db:seed to work with existing data
+1. clone or download source code (unzip)
+2. cd to project folder
+3. Set database credentials in .env file
+4. Run composer install
+5. Run `php artisan migrate` for migrations
+6. Run `php artisan passport:install` to set up encryption keys to generate tokens
+7. Run `php artisan serve` to test endpoints
+8. You can run `php artisan db:seed` to work with existing data
 
